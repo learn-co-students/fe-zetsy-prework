@@ -18,3 +18,95 @@ body {
 }
 
 /* Write all remaining styles here */
+
+header a {
+    color: rgb(152,173,166);
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s ease-out;
+    -webkit-transition: 0.5s ease-out;
+    -moz-transition: 0.5s ease-out;
+    -o-transition: 0.5s ease-out;
+}
+
+header a:hover {
+	color: #00E5EE;
+	text-shadow: 0px 0px 8px #00E5EE;
+
+}
+
+h1 {
+    padding-bottom: 10px;
+    margin: 0 0 5px;
+    font-size: 5em;
+    font-weight: normal;
+    font-family: 'Baskerville', serif;
+    border-bottom: 1px solid #ccc;
+    /*transition: text-shadow 2.5s ease-out;*/
+}
+
+/*h1:hover {
+	text-shadow: 0px 0px 36px #00E5EE;
+}*/
+
+h2 {
+    color: rgb(111,127,122);
+    font-size: 2em;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 0 45px 20px;
+}
+
+img[alt^="hand"] {
+	border-radius: 25px
+}
+
+div {
+	display: block;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+
+p {
+    color: #555;
+    font-size: 1em;
+    margin: 0 0 20px 0;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+#featured a {
+    color: #1783bb;
+    text-decoration: none;
+}
+
+#featured a:hover {
+	text-decoration: underline;
+}
+
+#press {
+    margin-bottom: 20px;
+}
+
+#press img {
+    border: 5px #ccc solid;
+    padding: 1px;
+    -webkit-transition: border-color 2s ease-out;
+    -moz-transition: border-color 2s ease-out;
+    -o-transition: border-color 2s ease-out;
+    transition: border-color 2s ease-out;
+}
+
+#press img:hover {
+	border-color: #00E5EE;
+	cursor: pointer;
+}

@@ -1,13 +1,16 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
+@font-face {
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc);
+}
 
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -17,4 +20,67 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+h1 {
+    padding-bottom: 10px;
+    margin: 0 0 5px;
+    font-size: 5em;
+    font-weight: normal;
+    font-family: 'Baskerville', serif;
+    border-bottom: 1px solid #ccc;
+}
+
+h1 a {
+	color: rgb(152,173,166);
+	text-decoration: none;
+}
+
+h1 a:hover {
+	color: rgb(111,127,122);
+}
+
+}
+img {
+	border: 5px solid;
+	border-color: rgb(152,173,166);
+}
+
+.footer-images img {
+	padding: 1px;
+	border: 5px #ccc solid;
+	transition: border 0.25s ease-out;
+}
+
+.footer-images img:hover {
+	border: 5px rgb(111,127,122) solid;
+}
+
+.footer-images {
+	margin-bottom: 15px;
+}
+
+h2 {
+	color: rgb(111,127,122);
+	font-size: 2em;
+}
+
+.footer-text {
+	font-size: 0.8em;
+	margin: 0 0 20px 0;
+	text-align: right;
+}
+
+.body-text a {
+	color: #1783bb;
+	text-decoration: none;
+}
+
+p {
+	font-size: 1em;
+	color: #555;
+	margin: 0 0 20px 0;
+}
+
+.body-text a:hover{
+	color: #1783bb;
+	text-decoration: underline;
+}

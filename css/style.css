@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,65 @@ body {
 }
 
 /* Write all remaining styles here */
+
+section { /* DELETE LATER */
+		/*background: aqua;*/
+}
+
+#pagetitle {
+	font-family: 'Baskerville', serif;
+	color: rgb(152, 173, 166);
+	font-size: 80px;
+	border-bottom: 1px solid rgb(204, 204, 204);
+	padding: 0 0 10px 0;
+	margin: 0 0 5px 0;
+}
+
+header img {
+	border: 5px solid rgb(152, 173, 166);
+	margin: 0px auto;
+}
+
+
+section h2 {
+	color: rgb(111, 127, 122);
+	font-size: 30px;
+}
+
+p {
+	color: rgb(85, 85, 85);
+}
+
+.main {
+	border-color: rgb(152, 173, 166);
+	border-width: 10px;
+}
+
+.links a:link, .links a:visited{
+	color: rgb(23, 131, 187);
+	text-decoration: none;
+}
+
+.links a:hover, .links a:active {
+	color: rgb(23, 131, 187);
+	text-decoration: underline;
+}
+
+div.pressImages img {
+	display: inline-block;
+	margin: auto;
+	border: 5px solid rgb(204, 204, 204);
+
+}
+
+section.lastone {
+	position: relative;
+
+}
+
+section.lastone p#copyright {
+	position: absolute;
+	font-size: 12px;
+	right: 10px;
+	margin: 0 0 0 30px;
+}

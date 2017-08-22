@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,69 @@ body {
 }
 
 /* Write all remaining styles here */
+
+@font-face {
+	font-family: 'Baskerville';
+	src: url(fonts/Baskerville.ttc);
+}
+
+h1 {
+	font: normal 5em/1em 'Baskerville', "Times New Roman", serif;
+	margin-top: 0;
+	color: rgb(161,176,171);
+	padding-bottom: 20px;
+	margin: 0 0 15px 0;
+	position: relative;
+	top: 10px;
+	border-bottom: 1px solid grey;
+}
+
+h2 {
+	color: rgb(108,126,112);
+	font-size: 2em;
+}
+
+.wrapper header {
+	width: 100%;
+	background: white;
+	height: 100%;
+
+}
+
+.wrapper img#main-image {
+	border: 5px solid rgb(155,167,163);
+}
+
+p a {
+	color: blue;
+	text-decoration: none;
+}
+
+a.press-link {
+	margin: 0 auto;
+}
+
+.press-link img {
+	transition: all 0.5s ease;
+	border: 5px solid rgb(203,205,204);
+	margin: 0 auto;
+	padding: 1px;
+}
+
+.press-link img:hover {
+	border: 5px solid rgb(117,126,123);
+}
+
+p#legal {
+	display: block;
+	float: right;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}

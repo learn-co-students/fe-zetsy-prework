@@ -1,13 +1,16 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
-
+@font-face {
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc);
+}
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +21,71 @@ body {
 }
 
 /* Write all remaining styles here */
+p {
+	color: #555;
+}
+
+
+/*///////////////// Header //////////////////////*/
+
+header {
+	border-bottom: 1px solid rgb(204,204,204);
+	margin: 0 0 5px 0;
+}
+
+header h1 {
+	color: rgb(155, 175, 170);
+	font-family: 'Baskerville', serif;
+	font-size: 500%;
+	padding: 0 0 10px;
+	margin: 0px;
+}
+
+/*//////////////// About ////////////////////*/
+
+h2 {
+	font-size: 200%;
+	color: rgb(111, 127, 122);
+}
+
+#about a {
+	text-decoration: none;
+	color: rgb(33,132,185);
+}
+
+#about a:hover {
+	text-decoration: underline;
+}
+
+
+
+/*/////////////////// Images ////////////////////////*/
+
+img {
+	border-style: solid;
+	border-width: 5px;
+	border-color: rgb(155,175,170);
+}
+
+/*//////////////////// Press ////////////////////////*/
+
+#press img {
+	border-style: solid;
+	border-width: 5px;
+	border-color: rgb(204,204,204);
+	padding: 1px;
+}
+
+#press img:hover {
+	border-color: rgb(111,127,122)
+}
+
+
+
+/*///////////////////// Footer ///////////////////////*/
+
+footer p {
+	text-align: right;
+	font-size: 80%;
+	padding: 7px 0;
+}

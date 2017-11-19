@@ -1,13 +1,16 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
-
+@font-face {
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc);
+}
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +21,82 @@ body {
 }
 
 /* Write all remaining styles here */
+
+#necklace {
+	border:5px solid rgb(152, 173, 166);
+}
+
+section {
+	margin:2px;
+	border: 5px solid rgb(204, 204, 204);
+}
+
+section:hover{
+	border-color: rgb(111, 127, 122);
+}
+
+#museum {
+	float: left;
+}
+
+#nytimes {
+	float: left;
+}
+
+#sedona {
+	float: left;
+}
+
+#bergdorf {
+	float:left;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+}
+
+footer {
+	margin:20px;
+	color: rgb(85, 85, 85);
+	text-align: right;
+	font-size: 12px;
+}
+
+header {
+	font-size: 80px
+}
+
+#head a:link, #head a:visited {
+	color: rgb(152, 173, 166);
+	text-decoration: none;
+}
+
+#head a:hover {
+	color:rgb(111, 127, 122);
+}
+
+header {
+	font-family: 'Baskerville'
+}
+
+h2 {
+	color:rgb(111, 127, 122);
+	font-size: 30px;
+}
+
+p {
+	color: rgb(85, 85, 85);
+}
+
+p a:link, p a:visited{
+	text-decoration: none;
+	color: rgb(23, 131, 187);
+}
+p a:hover {
+	text-decoration: underline;
+}

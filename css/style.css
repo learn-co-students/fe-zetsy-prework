@@ -7,7 +7,23 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+}
+
+h1 {
+	color: rgb(152, 173, 166);
+	font-family: serif;
+	font-size: 5em;
+	font-weight: normal;
+	padding-bottom:10px;
+	margin: 0 0 5px;
+	border-bottom: 1px solid
+}
+
+h2 {
+	color: rgb(111, 127, 122);
+	font-family: serif;
+	font-size: 2em;
 }
 
 .wrapper {
@@ -17,4 +33,25 @@ body {
 	padding: 0 45px 20px;
 }
 
+#featuredimg{
+	border: 5px #98ada6 solid;
+}
+
+#press {
+	margin-bottom: 20px;
+}
+
+#press img {
+	border: 5px #ccc solid; 
+	padding: 1px;
+}
+
+#press img:hover{
+border: 5px rgb(111,127,122) solid;
+}
+
+.footer {
+	text-align: right;
+	background: #fff;
+}
 /* Write all remaining styles here */

@@ -1,20 +1,95 @@
-/*////////////// Fonts //////////////*/
-
-/* link the web font used for the level 1 heading here */
-
-/*////////// Global Styles //////////*/
-
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700');
 body {
-	background: #F3EBE9;
-	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+  background: #F3EBE9;
+  font-size: 100%;
+  font-family: 'Times New Roman', serif;
+  color: #555;
 }
 
 .wrapper {
-	width: 960px;
-	margin: 0 auto;
-	background: #fff;
-	padding: 0 45px 20px;
+  width: 960px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+/* SECTIONS */
+
+h1 {
+  color: rgb(134, 158, 149);
+  font-size: 5em;
+  font-family: Baskerville, serif;
+  margin: 0;
+}
+
+.title {
+  color: rgb(134, 158, 149);
+  text-decoration: none;
+}
+
+.title:hover {
+  color: rgb(92, 108, 103);
+  text-decoration: none;
+}
+
+.features a {
+  text-decoration: none;
+}
+
+.features a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  color: rgb(92, 108, 103);
+  font-size: 2em
+}
+
+section {
+  width: 100%;
+}
+
+.main-photo {
+  border: 5px rgb(152,173,166) solid;
+  margin: 0;
+}
+
+footer {
+  clear: both;
+  font-size: .80em;
+  text-align: right;
+  padding: 2em 0;
+}
+
+/* LAYOUT PRESS*/
+
+* {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* floats press images*/
+figure {
+width: 100%;
+margin: 0;
+}
+
+.col-1 {
+  border: 5px rgb(193,193,193) solid;
+  float: left;
+  display: inline;
+  width: 23.5%;
+}
+
+.col-2 {
+  border: 5px rgb(193,193,193) solid;
+  display: inline;
+  float: left;
+  margin-left: 0.5%;
+  width: 23.5%;
+}
+
+.col-1:hover,.col-2:hover {
+  border-color: rgb(152,173,166);
+}

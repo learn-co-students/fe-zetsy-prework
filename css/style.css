@@ -18,3 +18,29 @@ body {
 }
 
 /* Write all remaining styles here */
+
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+.press {
+	display: inline;
+	border-color: #666666;
+	border: 1px;
+	border-style: solid;
+}
+
+
+a:visited, a:link, a:active {
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: underline;
+}

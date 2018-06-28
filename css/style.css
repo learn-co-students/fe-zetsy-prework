@@ -1,8 +1,11 @@
 /*////////////// Fonts //////////////*/
 
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
+
 
 body {
 	background: #F3EBE9;
@@ -18,3 +21,35 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 {
+  font-family:'Libre Baskerville', serif;;
+  color:rgb(152,173,166);
+  text-decoration: none;
+  background: transparent;
+  padding-bottom: 10px;
+  margin: 0 0 5px;
+  font-size: 5em;
+  font-weight: normal;
+  border-bottom: 1px solid #ccc;
+  display: block;
+  
+}
+
+h2 {
+  font-family: 'Times New Roman', serif;
+  color: rgb(111,127,122);
+  font-size: 2em;
+}
+
+img {
+  border: 5px rgb(152,173,166) solid;
+}
+
+
+#press img:hover {
+    border: 5px #777 solid;
+    padding: 1px;
+}
+
+

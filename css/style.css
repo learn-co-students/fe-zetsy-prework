@@ -2,6 +2,15 @@
 
 /* link the web font used for the level 1 heading here */
 
+@font-face {
+	font-family: 'Baskerville';
+	src: url('Baskerville.ttc?#iefix') format('embedded-opentype'),
+		 url('Baskerville.woff2') format('woff2'),
+		 url('Baskerville.woff') format('woff'),
+		 url('Baskervillet.ttf'), format('truetype'),
+		 url('Baskerville.svg#svgBaskerville') format('svg');
+}
+
 /*////////// Global Styles //////////*/
 
 body {
@@ -18,3 +27,24 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 {
+	font-family: 'Baskerville';
+	font-size: 40px;
+	color: rgb(160, 169, 165);
+	padding-top: 10px;
+}
+
+h2 {
+	color: rgb(160, 169, 165);
+}
+
+img {
+	border: 3px solid rgb(160, 169, 165);
+}
+
+.copyright {
+	float: right;
+	font-size: 12px;
+
+}

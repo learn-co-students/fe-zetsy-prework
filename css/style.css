@@ -18,3 +18,58 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 {
+  color: #9aa99a;
+  font-size: 6em;
+  font-weight: normal;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #c9cdcc;
+}
+
+img {
+  border: 5px solid #9aa99a;
+}
+
+h2 {
+  color: #647f78;
+  font-size: 2em;
+  font-weight: bold;
+  font-style: bold;
+}
+
+p {
+  color: #515a69;
+  font-size: 1.2em;
+  font-family: Times New Roman;
+}
+.learn_link {
+  text-decoration: none;
+  color: blue;
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#link-image {
+  border: 5px solid #c9cdcc;
+}
+
+#link-image:hover { 
+  border: 5px solid #747d7a;
+}
+
+#copyright {
+ text-align: right; 
+ font-size: 0.8em;
+}

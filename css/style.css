@@ -1,13 +1,14 @@
 /*////////////// Fonts //////////////*/
-
-/* link the web font used for the level 1 heading here */
+@font-face {
+	font-family: baskerville
+	src: url(fonts/Baskerville.ttc) format ('truetype')
+}
 
 /*////////// Global Styles //////////*/
-
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -17,4 +18,112 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+h2 {
+	font-size: 2em;
+	color: RGB(111,127,122);
+}
+
+h1 {
+	font-family: baskerville;
+	color: RGB(135,158,149);
+	font-size: 5em;
+	border-bottom: 1px solid #ccc;
+	margin: 0 0 5px;
+}
+
+p{
+	font-size: 1em;
+	color: #555;
+	margin: 0 0 20px 0;
+}
+
+#about a{
+	color: #1783bb;
+	text-decoration: none;
+}
+
+#about a:hover{
+	color: #1783bb;
+  text-decoration: underline;
+}
+
+img {
+	border: 5px solid RGB(135,158,149);
+	width: 100%;
+}
+
+#press img {
+	border: 5px #ccc solid;
+	padding: 1px;
+	margin-bottom: 2px;
+}
+
+#press {
+	margin-bottom: 20px;
+}
+
+.small {
+	font-size: 0.8em;
+	color: #555;
+}
+
+footer {
+	text-align: right;
+	margin: 0 0 20px 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*////////// Layout //////////*/
+div {
+	display: block;
+}
+
+.img1 {
+	float: left;
+	width: 24.6%;
+}
+
+.img2 {
+	float: left;
+	width: 24.6%;
+	margin-left: .5%;
+}
+
+.img3 {
+	float: left;
+	width: 24.6%;
+	margin-left: .5%;
+}
+
+.img4 {
+	float: left;
+	width: 24.6%;
+	margin-left: .5%;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0
+  line-height:0;
+}
+
+section {
+	display: block;
+}
+
+/*////////// Links //////////*/
+#press a{
+	color: #ccc;
+}
+
+#press a:hover {
+	color: black;
+}

@@ -18,3 +18,24 @@ body {
 }
 
 /* Write all remaining styles here */
+img{
+  border: 5px #ccc solid;
+}
+h1 {
+    font-size: 5em;
+    font-weight: normal;
+    font-family: 'Baskerville', serif;
+}
+h2{
+    color: rgb(111,127,122);
+    font-size: 2em;
+}
+.press{
+padding: 1px;
+}
+footer {
+  text-align:right;
+}
+.small {
+ font-size: 0.8em;
+}

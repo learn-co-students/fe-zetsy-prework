@@ -1,13 +1,14 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+@import url("../fonts/Baskerville.ttc")
 
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -17,4 +18,57 @@ body {
 	padding: 0 45px 20px;
 }
 
+a {
+	color: #1783bb;
+	text-decoration: none;
+}
+
+p {
+	font-family: "Times New Roman", serif;
+	font-size: 16px;
+	color: #555555;
+}
+
+.header {
+	font-family: "Times New Roman", serif;
+	font-size: 32px;
+	color: #6f7f7a;
+}
+
 /* Write all remaining styles here */
+
+#zetsy-title {
+	font-family: "Baskerville", serif;
+	font-size: 80px;
+	color: #98ada6;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+	margin: 0 0 5px;
+}
+
+#zetsy-title:hover {
+	color: #6F7F7A;
+}
+
+#turquoise-necklace-img {
+	border: 5px #98ada6 solid;
+}
+
+#footer-disclaimer {
+	font-family: "Times New Roman", serif;
+	font-size: 12.8px;
+	text-align: right;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a > img {
+	border: 5px #ccc solid;
+	padding: 1px;
+}
+
+a > img:hover {
+	border-color: #6F7F7A;
+}

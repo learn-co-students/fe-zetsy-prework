@@ -2,19 +2,82 @@
 
 /* link the web font used for the level 1 heading here */
 
+@font-face {
+  font-family: "Baskerville";
+  src: url("Baskerville.ttc");
+}
+
 /*////////// Global Styles //////////*/
 
 body {
-	background: #F3EBE9;
-	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+  background: #f3ebe9;
+  font-size: 100%;
+  font-family: "Times New Roman", serif;
 }
 
 .wrapper {
-	width: 960px;
-	margin: 0 auto;
-	background: #fff;
-	padding: 0 45px 20px;
+  width: 960px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 0 45px 0px;
 }
 
 /* Write all remaining styles here */
+h1 {
+  padding-bottom: 10px;
+  margin: 0 0 5px;
+  font-size: 5em;
+  font-weight: bolder;
+  font-family: "Baskerville", serif;
+  color: rgb(165, 176, 172);
+}
+
+img {
+  border: 6px solid;
+  color: rgb(165, 176, 172);
+}
+
+h2 {
+  font-size: 2.25em;
+  color: rgb(120, 129, 125);
+}
+h3 {
+  font-size: 0.75em;
+  text-align: right;
+  color: rgb(120, 129, 125);
+  padding-bottom: 40px;
+}
+p {
+  font-size: 1em;
+  line-height: 1.25em;
+  color: rgb(85, 85, 85);
+}
+
+#container {
+  height: 160px;
+  min-width: 612px;
+}
+
+.square-1,
+.square-2,
+.square-3,
+.square-4 {
+  width: 23%;
+  height: 135px;
+  vertical-align: top;
+  display: inline-block;
+  padding: 8px;
+}
+/* #container a:link,
+#container a:visited {
+  color: green;
+  text-decoration: none;
+}
+#container a:hover {
+  color: yellow;
+  text-decoration: none;
+}
+
+#container a:active {
+  color: red;
+} */

@@ -50,6 +50,7 @@ p  {
 
 #Press img{
 		border: 5px rgb(152,173,166) solid;
+		margin-bottom: 15px
 }
 
 #Press img:hover {

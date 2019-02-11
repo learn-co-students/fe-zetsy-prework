@@ -1,7 +1,9 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
-
+<style>
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+</style>
 /*////////// Global Styles //////////*/
 
 body {
@@ -18,3 +20,101 @@ body {
 }
 
 /* Write all remaining styles here */
+
+Done.
+
+@ekos26
+ekos26 committed 27 days ago
+commit 5c7de45aacb54bd6809f0874de3d72ab0a1e05d5
+     
+70  css/style.css
+@@ -1,13 +1,16 @@
+/*////////////// Fonts //////////////*/	/*////////////// Fonts //////////////*/
+
+
+ /* link the web font used for the level 1 heading here */	/* link the web font used for the level 1 heading here */
+<style>
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+</style>
+
+
+ /*////////// Global Styles //////////*/	/*////////// Global Styles //////////*/
+
+
+ body {	body {
+	background: #F3EBE9;		background: #F3EBE9;
+	font-size: 100%;		font-size: 100%;
+	font-family: 'Times New Roman', serif; 		font-family: 'Times New Roman', serif;
+}	}
+
+
+ .wrapper {	.wrapper {
+@@ -17,4 +20,67 @@ body {
+	padding: 0 45px 20px;		padding: 0 45px 20px;
+}	}
+
+
+ /* Write all remaining styles here */ 	/* Write all remaining styles here */
+h1 {
+	padding-bottom: 10px;
+	margin: 0 0 5px;
+	font-size: 5em;
+	font-weight: normal;
+	font-family: 'Libre Baskerville', serif;
+	border-bottom: 1px solid #ccc;
+}
+
+ h2 {
+	color: rgb(114, 127, 122);
+	font-size: 2em;
+}
+
+ p {
+	color: rgb(85, 85, 85);
+	font-size: 1em;
+	margin: 0 0 20px 0;
+}
+
+ .footer {
+	font-size: 0.8em;
+}
+
+ header a {
+	text-decoration: none;
+	color: rgb(156, 172, 166);
+}
+
+ header a:hover {
+	color: rgb(111, 127, 122);
+}
+
+ #featured img {
+	border: 5px rgb(156, 172, 166) solid;
+}
+
+ #featured a {
+	color: #1783bb;
+	text-decoration: none;
+}
+
+ #featured a:hover {
+	text-decoration: underline;
+}
+
+ #press {
+	margin-bottom: 20px;
+}
+
+ #press img {
+	border: 5px #ccc solid;
+	padding: 1px;
+}
+
+ #press img:hover {
+	border: 5px rgb(111, 127, 122) solid;
+}
+
+ footer {
+	text-align: right;
+	background: #fff;
+}

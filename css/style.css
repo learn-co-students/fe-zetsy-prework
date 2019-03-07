@@ -2,12 +2,17 @@
 
 /* link the web font used for the level 1 heading here */
 
+@font-face {
+	font-family:Baskerville;
+	src: url(fonts/Baskerville.ttc);
+}
+
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +23,63 @@ body {
 }
 
 /* Write all remaining styles here */
+
+#copyright_notice {
+	text-align:right;
+	font-size: 0.8em;
+}
+
+h1 {
+}
+
+h2 {
+	color: rgb(111,127,122);
+}
+
+p {
+	color: rgb(96,85,85);
+}
+
+#zetsy_header_link:link, #zetsy_header_link:visited {
+	color: rgb(157,171,166);
+	text-decoration: none;
+	font-size:2.5em;
+	font-family:Baskerville;
+}
+
+
+#zetsy_header_link:hover {
+	color: rgb(113,128,122);
+	text-decoration: none;
+	font-size:2.5em;
+	font-family:Baskerville;
+}
+
+.dividing_bar {
+	background: rgb(157,171,166);
+	width:100%;
+	height:1px;
+	margin:1px;
+}
+
+a {
+	color: rgb(33,135,194);
+	text-decoration:none;
+}
+
+a:hover, a:active {
+	text-decoration: underline;
+}
+
+#neclace_image {
+	background: rgb(153,173,166);
+	padding: 4px;
+}
+
+.press_img_link {
+	padding: 4px;
+}
+
+.press_img_link:hover {
+	background: rgb(115,126,122);
+}
